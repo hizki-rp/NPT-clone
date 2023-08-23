@@ -1,2 +1,3 @@
 # NPT-clone
-Product Testing clone, bootstrap with php
+
+Product Testing clone, bootstrap with php, layout and functionality
