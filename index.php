@@ -11,7 +11,7 @@
 <body> 
 
 <header>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center align-items-center">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark lg-12 sm-4 justify-content-center align-items-center pt-4 pb-4">
   <a class="navbar-brand" href="#" >National Product Testing Clone</a>
 
 </nav>
@@ -25,20 +25,43 @@
  
    
 <main>
-<div class="card justify-content-center align-items-center">
-<span>Are you a homeowner?</span>
+
+   <?php  
+    $question = "Are you a homeowner?";
+
+    $option1 = "Yes";
+    $option2 = "No";    
+   ?>
+
+      <div class="row">
+     <div class="col-6 mx-auto">   
+
+    <div class="card align-items-center";>
+<span>
+  <?php echo $question; ?>
+</span>
   <div class="card-body">
   <input type="hidden" name="ocs_p488348_1101680" value="No">
    <div class=" mb-4">
-   <button type="button" class="btn btn-primary">Yes</button>
+   <button type="button" class="btn btn-primary" style="height: 2.5rem; width:8rem;"><?php echo $option1; ?></button>
    </div>
    <div>
-   <button type="button" class="btn btn-primary">No</button>
+   <button type="button" class="btn btn-primary" style="height: 2.5rem; width:8rem;"><?php echo $option2; ?></button>
    </div>
   </div>
-</div>
 
-</div>
+  </div>
+  </div>
+        
+
+
+  
+ 
+
+
+
+
+
  <div id="565995" class="ad-placement-item" data-creative_id="1101870" data-tracking_id="DCCC550C41D711EE82B862BDC67C7D5DD0ACF02B" data-click_url="https://clk.flexdirectpath.com/c/c=1101870/s=291705/p=692/m=DCCC550C41D711EE82B862BDC67C7D5DD0ACF02B/" style="display: none;">
  <span>Whats the model of your car?</span>
   <div class="survey-answers">
@@ -58,17 +81,18 @@
    
  </div>
 
-</main>
-<div class="container">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top  bg-dark">
-    <div class="col-md-4 d-flex align-items-center">
+
+ </main>
+
+  <footer class="d-flex flex-wrap justify-content-between lg-12 sm-4 align-items-center py-3 my-4 border-top  bg-dark">
+    <div class="col-md-4 ">
      
-      <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+      
     </div>
 
     
   </footer>
-</div>
+
 
 
    
